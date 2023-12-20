@@ -1,0 +1,139 @@
+body {
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    position: relative;
+    top: 100px;
+    width: 440px;
+    padding: 15px;
+    border-radius: 18px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.total-amount {
+    font-size: 22px;
+    font-weight: 700;
+    color: #383737;
+
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.amount-container {
+    background-color: #e9eaeb;
+    padding: 6px;
+    padding-left: 15px;
+    border-radius: 18px;
+}
+
+.amount-text {
+    font-size: 20px;
+    font-weight: 700;
+    color:rgb(247, 13, 13)
+}
+
+.dollar-sign {
+    font-size: 20px;
+    font-weight: 700;
+    color: #9a1c1c
+}
+
+.label-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #544242;
+    margin-bottom:5px;
+}
+.credit-card-number {
+    width: 290px;
+    z-index: 28;
+    border: 2px solid #ced4da;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.credit-card-number:focus {
+    box-shadow: none;
+    border: 2px solid #673AB7
+}
+
+.visa-icon {
+    position: relative;
+     top: 30px;
+    left: 134px;
+    z-index: 30
+}
+
+.expiry-class {
+    width: 120px;
+    border: 2px solid #ced4da;
+    font-weight: 600;
+    font-size: 12px;
+    height: 48px
+}
+
+.expiry-class:focus {
+    box-shadow: none;
+    border: 2px solid #673AB7
+}
+
+.cvv-class {
+    width: 120px;
+    border: 2px solid #ced4da;
+    font-weight: 600;
+    font-size: 12px;
+    height: 48px
+}
+
+.cvv-class:focus {
+    box-shadow: none;
+    border: 2px solid #673AB7
+}
+
+.payment-btn {
+    background-color: #673AB7;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 12px
+}
+
+.payment-btn:hover {
+    box-shadow: none;
+    color: #fff
+}
+
+.cancel-btn {
+    background-color: #fff;
+    color: #b2b2b2;
+    padding: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: 600;
+    border-radius: 6px
+}
+
+.cancel-btn:hover {
+    border: 2px solid #b2b2b2;
+    color: #b2b2b2
+}
+
+.cancel-btn:focus {
+    box-shadow: none
+}
+
+.label-text-cc-number {
+    position: relative;
+    /* top: 4px; */
+    bottom: 5px;
+}

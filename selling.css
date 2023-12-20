@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: Verdana, sans-serif;
+    color: #edcab4;
+}
+
+
+
+/* Navigation CSS / Header CSS*/
+.Navigation{
+    height: 75px;
+    width: 100%;
+    /* background-color: #070417; */
+    color: #f26f22;
+    display: flex;
+    justify-content: space-evenly;
+    /* position:fixed; */
+    margin-right:10px ;
+    padding-right: 15px;
+    background-color:#262626;
+    border-bottom: 10px maroon solid;
+}
+.Navigation div{
+    margin-right: 60px;
+    font-size: 40px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo{
+    width: 180px;
+    height:65px;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+img{
+    /* margin-top: 5px;     */
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.cart{
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.fa-cart-shopping{
+    margin-top: 5px;
+}
+.fa-heart{
+    margin-top: 5px;
+
+}
+.fa-house{
+    margin-top: 5px;
+}
+.nav-logo img{
+    height: 65px;
+    width: 180px;
+
+}
+.fa-table-cells{
+    margin-top: 10px;
+}
+.categories{
+    display: flex;
+    cursor: pointer;
+
+}
+.account{
+    display: flex;
+    cursor: pointer;
+
+}
+.home{
+
+    cursor: pointer;
+    display: flex;
+}
+.wishlist{
+    cursor: pointer;
+    display: flex;
+
+}
+.fa-user{
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+
+
+
+
+/* MAIN */
+main{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#262626;
+
+}
+.payment-box{
+    height: 400px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    background-color: #6c6969;
+}
+.card-number{
+    margin-top: 15px;
+    color: #262626;
+    height: 130px;
+
+}
+input{
+    height: 25px;
+    width: 280px;
+}
+
+.CVV{
+    height: 80px;
+}
